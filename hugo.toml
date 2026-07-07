@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Cyberpunk 2077 Ultimate Mod List'
+theme = 'cyberpunk'

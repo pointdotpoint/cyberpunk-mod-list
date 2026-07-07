@@ -1,0 +1,98 @@
+{{ define "main" }}
+<div class="netrunner-layout">
+    <!-- TOP HEADER -->
+    <header class="netrunner-header">
+        <div class="header-left">
+            <span class="sys-title">**CYBERMODS.INF**</span>
+            <span class="sys-tag">[NETRUNNER_TERMINAL] [LOGGED: V.0.98a]</span>
+        </div>
+        <div class="header-right">
+            <span class="sys-time">11:39:43 | DATA STREAM | USER: V-047</span>
+        </div>
+    </header>
+
+    <div class="netrunner-body">
+        <!-- SIDEBAR -->
+        <aside class="netrunner-sidebar">
+            <nav class="sidebar-nav">
+                <button class="nav-btn active" onclick="setCategory('All', this)">[ ALL_SYSTEMS ]</button>
+                {{ $categories := slice }}
+                {{ range .Site.Data.mods }}
+                    {{ if not (in $categories .final_category) }}
+                        {{ $categories = $categories | append .final_category }}
+                    {{ end }}
+                {{ end }}
+                {{ range sort $categories }}
+                    <button class="nav-btn" onclick="setCategory('{{ . }}', this)">[ {{ upper . | replaceRE " " "_" }} ]</button>
+                {{ end }}
+            </nav>
+            
+            <div class="sidebar-data">
+                <div class="data-graph">
+                    <div class="bar" style="height: 40%"></div>
+                    <div class="bar" style="height: 80%"></div>
+                    <div class="bar" style="height: 60%"></div>
+                    <div class="bar" style="height: 100%"></div>
+                    <div class="bar" style="height: 30%"></div>
+                    <div class="bar" style="height: 70%"></div>
+                    <div class="bar" style="height: 50%"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="netrunner-content">
+            <div class="search-bar-wrapper">
+                <span class="prompt-arrow">></span>
+                <input type="text" id="searchInput" placeholder="SEARCH_MODS_DATABASE: [ | ]" oninput="applyFilters()">
+                <span class="mod-count">MOD_LIST [1322]</span>
+            </div>
+
+            {{ partial "intro.html" . }}
+
+            <div class="mods-container">
+                {{ $modsByCategory := dict }}
+                {{ range .Site.Data.mods }}
+                    {{ $cat := .final_category }}
+                    {{ $list := index $modsByCategory $cat | default slice }}
+                    {{ $list = $list | append . }}
+                    {{ $modsByCategory = merge $modsByCategory (dict $cat $list) }}
+                {{ end }}
+
+                {{ range $cat, $mods := $modsByCategory }}
+                <section class="category-section" data-category="{{ $cat }}">
+                    <div class="mod-grid">
+                        {{ range $index, $mod := sort $mods "title" "asc" }}
+                        <div class="netrunner-card">
+                            <div class="card-header">
+                                <span class="mod-id">[ MOD_ID: {{ printf "%03d" $index }} ]</span>
+                            </div>
+                            <h3 class="mod-title">{{ .title }}</h3>
+                            <div class="mod-status">STATUS: <span class="status-enabled">ENABLED [Y]</span></div>
+                            
+                            {{ if .description }}
+                            <div class="mod-desc">
+                                <span class="desc-label">Descr:</span> {{ .description }}
+                            </div>
+                            {{ end }}
+                            
+                            <div class="card-footer">
+                                <a href="{{ .url }}" target="_blank" class="action-btn">[ACCESS_LINK]</a>
+                                <span class="mod-source">[{{ .source }}]</span>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </section>
+                {{ end }}
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="netrunner-footer">
+        <span class="sys-monitor">SYSTEM_MONITOR [ CPU: 67% | NET: 99MB/S | MODS: ACTIVE ]</span>
+        <div class="footer-bars">////////////////////////////////////////</div>
+    </footer>
+</div>
+{{ end }}

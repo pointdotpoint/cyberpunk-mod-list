@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanlines"></div>
+    {{ block "main" . }}{{ end }}
+
+    <script>
+        let currentCategory = 'All';
+        
+        // Cache DOM elements and search text to prevent slow DOM queries on every filter
+        let cardsCache = null;
+
+        function initCache() {
+            if (!cardsCache) {
+                cardsCache = Array.from(document.querySelectorAll('.netrunner-card')).map(card => {
+                    const title = card.querySelector('.mod-title').textContent;
+                    const descEl = card.querySelector('.mod-desc');
+                    const desc = descEl ? descEl.textContent : "";
+                    const cat = card.closest('.category-section').dataset.category;
+                    return {
+                        element: card,
+                        searchString: (title + " " + desc + " " + cat).toLowerCase(),
+                        category: cat
+                    };
+                });
+            }
+        }
+
+        function setCategory(category, element) {
+            currentCategory = category;
+            const buttons = document.querySelectorAll('.nav-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            if(element) {
+                element.classList.add('active');
+            }
+            applyFilters();
+        }
+
+        function applyFilters() {
+            initCache(); // ensure cache is ready
+
+            const searchInput = document.getElementById('searchInput');
+            const searchString = searchInput ? searchInput.value.toLowerCase() : "";
+            
+            let totalVisible = 0;
+            const sectionsVisibility = {};
+            
+            // Fast loop over cached data (No DOM read operations)
+            cardsCache.forEach(item => {
+                const isCatMatch = (currentCategory === 'All' || item.category === currentCategory);
+                const isTextMatch = item.searchString.includes(searchString);
+                
+                if (isCatMatch && isTextMatch) {
+                    item.element.style.display = 'flex';
+                    totalVisible++;
+                    sectionsVisibility[item.category] = true;
+                } else {
+                    item.element.style.display = 'none';
+                }
+            });
+            
+            // Hide/Show section containers
+            const sections = document.querySelectorAll('.category-section');
+            sections.forEach(section => {
+                const cat = section.dataset.category;
+                if (sectionsVisibility[cat]) {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+            
+            const countEl = document.querySelector('.mod-count');
+            if (countEl) {
+                countEl.innerText = `MOD_LIST [${totalVisible}]`;
+            }
+        }
+        
+        // Initialize cache when DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', initCache);
+    </script>
+</body>
+</html>
