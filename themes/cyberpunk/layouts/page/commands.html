@@ -1,0 +1,105 @@
+{{ define "main" }}
+<div class="netrunner-layout">
+    <!-- TOP HEADER -->
+    <header class="netrunner-header">
+        <div class="header-left">
+            <span class="sys-title">**CYBERMODS.INF**</span>
+            <span class="sys-tag">[NETRUNNER_TERMINAL] [LOGGED: V.0.98a]</span>
+            <a href="/" class="nav-link">[ MOD_DB ]</a>
+            <a href="/commands/" class="nav-link active">[ CMD_DB ]</a>
+        </div>
+        <div class="header-right">
+            <span class="sys-time">11:39:43 | DATA STREAM | USER: V-047</span>
+        </div>
+    </header>
+
+    <div class="netrunner-body" style="flex-direction: column;">
+        <div class="search-bar-wrapper" style="margin-bottom: 1rem;">
+            <span class="prompt-arrow">></span>
+            <input type="text" id="cmdSearchInput" placeholder="SEARCH_COMMANDS: [ | ]" oninput="filterCommands()">
+            <span class="cmd-count">CMD_LIST [{{ len .Site.Data.commands }}]</span>
+        </div>
+
+        <div class="table-container">
+            <table class="netrunner-table" id="cmdTable">
+                <thead>
+                    <tr>
+                        <th>TYPE</th>
+                        <th>NAME</th>
+                        <th>COMMAND (CLICK TO COPY)</th>
+                        <th>NOTES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ range .Site.Data.commands }}
+                    <tr class="cmd-row">
+                        <td class="col-type">{{ .type }}</td>
+                        <td class="col-name">{{ .name }}</td>
+                        <td class="col-command" onclick="copyCommand(this)" data-command="{{ .command }}">
+                            <span class="copy-hint">[COPY]</span> 
+                            <code>{{ .command }}</code>
+                        </td>
+                        <td class="col-notes">{{ .notes }}</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="netrunner-footer">
+        <span class="sys-monitor">SYSTEM_MONITOR [ CPU: 67% | NET: 99MB/S | CMDS: LOADED ]</span>
+        <div class="footer-bars">////////////////////////////////////////</div>
+    </footer>
+</div>
+<script>
+    let cmdCache = null;
+    function initCmdCache() {
+        if (!cmdCache) {
+            cmdCache = Array.from(document.querySelectorAll('.cmd-row')).map(row => {
+                return {
+                    element: row,
+                    searchString: row.innerText.toLowerCase()
+                };
+            });
+        }
+    }
+
+    function filterCommands() {
+        initCmdCache();
+        const searchInput = document.getElementById('cmdSearchInput');
+        const searchString = searchInput ? searchInput.value.toLowerCase() : "";
+        let visibleCount = 0;
+
+        cmdCache.forEach(item => {
+            if (item.searchString.includes(searchString)) {
+                item.element.style.display = '';
+                visibleCount++;
+            } else {
+                item.element.style.display = 'none';
+            }
+        });
+        
+        const countEl = document.querySelector('.cmd-count');
+        if (countEl) {
+            countEl.innerText = `CMD_LIST [${visibleCount}]`;
+        }
+    }
+    document.addEventListener('DOMContentLoaded', initCmdCache);
+
+    function copyCommand(element) {
+        const cmd = element.getAttribute('data-command');
+        navigator.clipboard.writeText(cmd).then(() => {
+            const hint = element.querySelector('.copy-hint');
+            const originalText = hint.innerText;
+            hint.innerText = '[COPIED!]';
+            hint.style.color = 'var(--green)';
+            setTimeout(() => {
+                hint.innerText = originalText;
+                hint.style.color = '';
+            }, 2000);
+        });
+    }
+</script>
+{{ end }}
