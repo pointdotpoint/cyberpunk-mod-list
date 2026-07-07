@@ -14,14 +14,23 @@
     </header>
 
     <div class="netrunner-body" style="flex-direction: column;">
+        
+        <div class="cmd-tabs">
+            <button class="cmd-tab-btn active" onclick="switchTab('tab-generic', this)">GENERIC</button>
+            <button class="cmd-tab-btn" onclick="switchTab('tab-clothes', this)">CLOTHES</button>
+            <button class="cmd-tab-btn" onclick="switchTab('tab-vehicles', this)">VEHICLES</button>
+            <button class="cmd-tab-btn" onclick="switchTab('tab-iconic', this)">ICONIC ITEMS</button>
+        </div>
+
         <div class="search-bar-wrapper" style="margin-bottom: 1rem;">
             <span class="prompt-arrow">></span>
             <input type="text" id="cmdSearchInput" placeholder="SEARCH_COMMANDS: [ | ]" oninput="filterCommands()">
-            <span class="cmd-count">CMD_LIST [{{ len .Site.Data.commands }}]</span>
+            <span class="cmd-count">CMD_LIST [0]</span>
         </div>
 
         <div class="table-container">
-            <table class="netrunner-table" id="cmdTable">
+            <!-- GENERIC TAB -->
+            <table class="netrunner-table tab-table active-table" id="tab-generic">
                 <thead>
                     <tr>
                         <th>TYPE</th>
@@ -32,7 +41,7 @@
                 </thead>
                 <tbody>
                     {{ range .Site.Data.commands }}
-                    <tr class="cmd-row">
+                    <tr class="cmd-row generic-row">
                         <td class="col-type">{{ .type }}</td>
                         <td class="col-name">{{ .name }}</td>
                         <td class="col-command" onclick="copyCommand(this)" data-command="{{ .command }}">
@@ -40,6 +49,81 @@
                             <code>{{ .command }}</code>
                         </td>
                         <td class="col-notes">{{ .notes }}</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+
+            <!-- CLOTHES TAB -->
+            <table class="netrunner-table tab-table" id="tab-clothes" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>IMAGE</th>
+                        <th>NAME</th>
+                        <th>COMMAND (CLICK TO COPY)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ range .Site.Data.clothes }}
+                    <tr class="cmd-row clothes-row">
+                        <td class="col-img">
+                            {{ if .image }}
+                            <img src="{{ .image }}" alt="{{ .name }}" class="cmd-preview-img">
+                            {{ end }}
+                        </td>
+                        <td class="col-name">{{ .name }}</td>
+                        <td class="col-command" onclick="copyCommand(this)" data-command="{{ .command }}">
+                            <span class="copy-hint">[COPY]</span> 
+                            <code>{{ .command }}</code>
+                        </td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+
+            <!-- VEHICLES TAB -->
+            <table class="netrunner-table tab-table" id="tab-vehicles" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>COMMAND (CLICK TO COPY)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ range .Site.Data.vehicles }}
+                    <tr class="cmd-row vehicles-row">
+                        <td class="col-name">{{ .name }}</td>
+                        <td class="col-command" onclick="copyCommand(this)" data-command="{{ .command }}">
+                            <span class="copy-hint">[COPY]</span> 
+                            <code>{{ .command }}</code>
+                        </td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+
+            <!-- ICONIC ITEMS TAB -->
+            <table class="netrunner-table tab-table" id="tab-iconic" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>IMAGE</th>
+                        <th>NAME</th>
+                        <th>COMMAND (CLICK TO COPY)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ range .Site.Data.iconic }}
+                    <tr class="cmd-row iconic-row">
+                        <td class="col-img">
+                            {{ if .image }}
+                            <img src="{{ .image }}" alt="{{ .name }}" class="cmd-preview-img">
+                            {{ end }}
+                        </td>
+                        <td class="col-name">{{ .name }}</td>
+                        <td class="col-command" onclick="copyCommand(this)" data-command="{{ .command }}">
+                            <span class="copy-hint">[COPY]</span> 
+                            <code>{{ .command }}</code>
+                        </td>
                     </tr>
                     {{ end }}
                 </tbody>
@@ -53,17 +137,42 @@
         <div class="footer-bars">////////////////////////////////////////</div>
     </footer>
 </div>
+
 <script>
+    let activeTabId = 'tab-generic';
     let cmdCache = null;
+
     function initCmdCache() {
         if (!cmdCache) {
             cmdCache = Array.from(document.querySelectorAll('.cmd-row')).map(row => {
+                let tabBelongsTo = 'tab-generic';
+                if (row.classList.contains('clothes-row')) {
+                    tabBelongsTo = 'tab-clothes';
+                } else if (row.classList.contains('vehicles-row')) {
+                    tabBelongsTo = 'tab-vehicles';
+                } else if (row.classList.contains('iconic-row')) {
+                    tabBelongsTo = 'tab-iconic';
+                }
                 return {
                     element: row,
-                    searchString: row.innerText.toLowerCase()
+                    searchString: row.innerText.toLowerCase(),
+                    tab: tabBelongsTo
                 };
             });
         }
+    }
+
+    function switchTab(tabId, btnElement) {
+        // Update Buttons
+        document.querySelectorAll('.cmd-tab-btn').forEach(btn => btn.classList.remove('active'));
+        btnElement.classList.add('active');
+
+        // Update Tables
+        document.querySelectorAll('.tab-table').forEach(table => table.style.display = 'none');
+        document.getElementById(tabId).style.display = 'table';
+        
+        activeTabId = tabId;
+        filterCommands(); // Re-run filter for the new active tab
     }
 
     function filterCommands() {
@@ -73,11 +182,15 @@
         let visibleCount = 0;
 
         cmdCache.forEach(item => {
-            if (item.searchString.includes(searchString)) {
-                item.element.style.display = '';
-                visibleCount++;
+            if (item.tab === activeTabId) {
+                if (item.searchString.includes(searchString)) {
+                    item.element.style.display = '';
+                    visibleCount++;
+                } else {
+                    item.element.style.display = 'none';
+                }
             } else {
-                item.element.style.display = 'none';
+                item.element.style.display = 'none'; // hide rows not in the active tab
             }
         });
         
@@ -86,7 +199,11 @@
             countEl.innerText = `CMD_LIST [${visibleCount}]`;
         }
     }
-    document.addEventListener('DOMContentLoaded', initCmdCache);
+    
+    // Initial run
+    document.addEventListener('DOMContentLoaded', () => {
+        filterCommands(); 
+    });
 
     function copyCommand(element) {
         const cmd = element.getAttribute('data-command');

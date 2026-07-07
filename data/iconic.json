@@ -1,0 +1,717 @@
+[
+  {
+    "name": "Achilles x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Achilles_Collectible\")",
+    "image": "/images/iconic/achilles_x-mod2.jpg"
+  },
+  {
+    "name": "Agaou",
+    "command": "Game.AddToInventory(\"Items.Preset_VB_Axe\")",
+    "image": "/images/iconic/agaou.jpg"
+  },
+  {
+    "name": "Alabai",
+    "command": "Game.AddToInventory(\"Items.Preset_Pozhar_AirDrop\")",
+    "image": "/images/iconic/alabai.jpg"
+  },
+  {
+    "name": "Ambition",
+    "command": "Game.AddToInventory(\"Items.Preset_Kenshin_Spy\")",
+    "image": "/images/iconic/ambition.jpg"
+  },
+  {
+    "name": "Amnesty",
+    "command": "Game.AddToInventory(\"Items.Preset_Overture_Cassidy\")",
+    "image": "/images/iconic/amnesty.jpg"
+  },
+  {
+    "name": "Amstaff",
+    "command": "Game.AddToInventory(\"Items.Preset_Crusher_Amazon\")",
+    "image": "/images/iconic/amstaff.jpg"
+  },
+  {
+    "name": "Apparition",
+    "command": "Game.AddToInventory(\"Items.Preset_Kenshin_Frank\")",
+    "image": "/images/iconic/apparition.jpg"
+  },
+  {
+    "name": "Archangel",
+    "command": "Game.AddToInventory(\"Items.Preset_Overture_Kerry\")",
+    "image": "/images/iconic/archangel.jpg"
+  },
+  {
+    "name": "BFC 9000",
+    "command": "Game.AddToInventory(\"Items.Preset_Dildo_SexShop\")",
+    "image": "/images/iconic/bfc_9000.jpg"
+  },
+  {
+    "name": "Ba Xing Chong",
+    "command": "Game.AddToInventory(\"Items.Legendary_Zhuo_Eight_Star\")",
+    "image": "/images/iconic/ba_xing_chong.jpg"
+  },
+  {
+    "name": "Baby Boomer",
+    "command": "Game.AddToInventory(\"Items.Preset_Baseball_Bat_Malina\")",
+    "image": "/images/iconic/baby_boomer.jpg"
+  },
+  {
+    "name": "Bald Eagle",
+    "command": "Game.AddToInventory(\"Items.Preset_Metel_Kurt\")",
+    "image": "/images/iconic/bald_eagle.jpg"
+  },
+  {
+    "name": "Baseball Bat x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Baseball_Bat_Legendary\")",
+    "image": "/images/iconic/baseball_bat_x-mod2.jpg"
+  },
+  {
+    "name": "Black Unicorn",
+    "command": "Game.AddToInventory(\"Items.Preset_Katana_GoG\")",
+    "image": "/images/iconic/black_unicorn.jpg"
+  },
+  {
+    "name": "Bloody Maria",
+    "command": "Game.AddToInventory(\"Items.Preset_Tactician_Dino\")",
+    "image": "/images/iconic/bloody_maria.jpg"
+  },
+  {
+    "name": "Blue Fang",
+    "command": "Game.AddToInventory(\"Items.Preset_Neurotoxin_Knife_Iconic\")",
+    "image": "/images/iconic/blue_fang.jpg"
+  },
+  {
+    "name": "Borzaya",
+    "command": "Game.AddToInventory(\"Items.Preset_Grad_AirDrop\")",
+    "image": "/images/iconic/borzaya.jpg"
+  },
+  {
+    "name": "Breakthrough",
+    "command": "Game.AddToInventory(\"Items.Legendary_Nekomata_Breakthrough\")",
+    "image": "/images/iconic/breakthrough.jpg"
+  },
+  {
+    "name": "Butcher's Cleaver",
+    "command": "Game.AddToInventory(\"Items.Preset_Butchers_Knife_Iconic\")",
+    "image": "/images/iconic/butcher_s_cleaver.jpg"
+  },
+  {
+    "name": "Buzzsaw",
+    "command": "Game.AddToInventory(\"Items.Legendary_Pulsar_Buzzsaw\")",
+    "image": "/images/iconic/buzzsaw.jpg"
+  },
+  {
+    "name": "Byakko",
+    "command": "Game.AddToInventory(\"Items.Preset_Katana_Wakako\")",
+    "image": "/images/iconic/byakko.jpg"
+  },
+  {
+    "name": "Caretaker's Spade",
+    "command": "Game.AddToInventory(\"Items.Preset_Shovel_Caretaker\")",
+    "image": "/images/iconic/caretaker_s_spade.jpg"
+  },
+  {
+    "name": "Carmen",
+    "command": "Game.AddToInventory(\"Items.Preset_Umbra_Bebe\")",
+    "image": "/images/iconic/carmen.jpg"
+  },
+  {
+    "name": "Catahoula",
+    "command": "Game.AddToInventory(\"Items.Preset_Grit_Amazon\")",
+    "image": "/images/iconic/catahoula.jpg"
+  },
+  {
+    "name": "Chaos",
+    "command": "Game.AddToInventory(\"Items.Preset_Kenshin_Royce\")",
+    "image": "/images/iconic/chaos.jpg"
+  },
+  {
+    "name": "Cheetah",
+    "command": "Game.AddToInventory(\"Items.Preset_Unity_Angelica\")",
+    "image": "/images/iconic/cheetah.jpg"
+  },
+  {
+    "name": "Chesapeake",
+    "command": "Game.AddToInventory(\"Items.Preset_Warden_Amazon\")",
+    "image": "/images/iconic/chesapeake.jpg"
+  },
+  {
+    "name": "Chesapeake",
+    "command": "Game.AddToInventory(\"Items.Preset_Kyubi_Amazon\")",
+    "image": "/images/iconic/chesapeake.jpg"
+  },
+  {
+    "name": "Claw x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Fanged_Axe_Collectible\")",
+    "image": "/images/iconic/claw_x-mod2.jpg"
+  },
+  {
+    "name": "Cocktail Stick",
+    "command": "Game.AddToInventory(\"Items.Preset_Katana_Cocktail\")",
+    "image": "/images/iconic/cocktail_stick.jpg"
+  },
+  {
+    "name": "Comrade's Hammer",
+    "command": "Game.AddToInventory(\"Items.Legendary_Burya_Comrade\")",
+    "image": "/images/iconic/comrade_s_hammer.jpg"
+  },
+  {
+    "name": "Cottonmouth",
+    "command": "Game.AddToInventory(\"Items.Preset_Cane_Fingers\")",
+    "image": "/images/iconic/cottonmouth.jpg"
+  },
+  {
+    "name": "Crash",
+    "command": "Game.AddToInventory(\"Items.Preset_Overture_River\")",
+    "image": "/images/iconic/crash.jpg"
+  },
+  {
+    "name": "Crimestopper",
+    "command": "Game.AddToInventory(\"Items.Preset_Kappa_George\")",
+    "image": "/images/iconic/crimestopper.jpg"
+  },
+  {
+    "name": "Bunker Crowbar",
+    "command": "Game.AddToInventory(\"Items.Preset_Crowbar_Bunker\")",
+    "image": "/images/iconic/bunker_crowbar.jpg"
+  },
+  {
+    "name": "Cut-o-Matic x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Chainsword_Legendary\")",
+    "image": "/images/iconic/cut-o-matic_x-mod2.jpg"
+  },
+  {
+    "name": "Death and Taxes",
+    "command": "Game.AddToInventory(\"Items.Preset_Nue_Maiko\")",
+    "image": "/images/iconic/death_and_taxes.jpg"
+  },
+  {
+    "name": "Dezerter",
+    "command": "Game.AddToInventory(\"Items.Preset_Testera_Nicolas\")",
+    "image": "/images/iconic/dezerter.jpg"
+  },
+  {
+    "name": "Divided We Stand",
+    "command": "Game.AddToInventory(\"Items.Preset_Sidewinder_Divided\")",
+    "image": "/images/iconic/divided_we_stand.jpg"
+  },
+  {
+    "name": "Doom Doom",
+    "command": "Game.AddToInventory(\"Items.Preset_Nova_Doom_Doom\")",
+    "image": "/images/iconic/doom_doom.jpg"
+  },
+  {
+    "name": "Dying Night",
+    "command": "Game.AddToInventory(\"Items.Preset_Lexington_Wilson\")",
+    "image": "/images/iconic/dying_night.jpg"
+  },
+  {
+    "name": "Errata",
+    "command": "Game.AddToInventory(\"Items.Preset_Katana_E3\")",
+    "image": "/images/iconic/errata.jpg"
+  },
+  {
+    "name": "Fang",
+    "command": "Game.AddToInventory(\"Items.Preset_Knife_Kurtz_1\")",
+    "image": "/images/iconic/fang.jpg"
+  },
+  {
+    "name": "Fenrir",
+    "command": "Game.AddToInventory(\"Items.Preset_Saratoga_Maelstrom\")",
+    "image": "/images/iconic/fenrir.jpg"
+  },
+  {
+    "name": "Foxhound",
+    "command": "Game.AddToInventory(\"Items.Preset_Nekomata_Amazon\")",
+    "image": "/images/iconic/foxhound.jpg"
+  },
+  {
+    "name": "Genjiroh",
+    "command": "Game.AddToInventory(\"Items.Preset_Yukimura_Kiji\")",
+    "image": "/images/iconic/genjiroh.jpg"
+  },
+  {
+    "name": "Gold-plated baseball bat",
+    "command": "Game.AddToInventory(\"Items.Preset_Baseball_Bat_Denny\")",
+    "image": "/images/iconic/gold-plated_baseball_bat.jpg"
+  },
+  {
+    "name": "Gris-Gris",
+    "command": "Game.AddToInventory(\"Items.Preset_Quasar_Baron\")",
+    "image": "/images/iconic/gris-gris.jpg"
+  },
+  {
+    "name": "Guillotine x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Guillotine_Collectible\")",
+    "image": "/images/iconic/guillotine_x-mod2.jpg"
+  },
+  {
+    "name": "Guts",
+    "command": "Game.AddToInventory(\"Items.Preset_Carnage_Edgerunners\")",
+    "image": "/images/iconic/guts.jpg"
+  },
+  {
+    "name": "Gwynbleidd",
+    "command": "Game.AddToInventory(\"Items.Preset_Sword_Witcher\")",
+    "image": "/images/iconic/gwynbleidd.jpg"
+  },
+  {
+    "name": "Hawk",
+    "command": "Game.AddToInventory(\"Items.Preset_Kyubi_Myers\")",
+    "image": "/images/iconic/hawk.jpg"
+  },
+  {
+    "name": "Headhunter",
+    "command": "Game.AddToInventory(\"Items.Preset_Punk_Knife_Iconic\")",
+    "image": "/images/iconic/headhunter.jpg"
+  },
+  {
+    "name": "Her Majesty",
+    "command": "Game.AddToInventory(\"Items.Preset_Unity_Agent\")",
+    "image": "/images/iconic/her_majesty.jpg"
+  },
+  {
+    "name": "Hypercritical",
+    "command": "Game.AddToInventory(\"Items.Preset_Kolac_Tiny_Mike\")",
+    "image": "/images/iconic/hypercritical.jpg"
+  },
+  {
+    "name": "Jinchu-maru",
+    "command": "Game.AddToInventory(\"Items.Preset_Katana_Takemura\")",
+    "image": "/images/iconic/jinchu-maru.jpg"
+  },
+  {
+    "name": "Kappa x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Kappa_Legendary\")",
+    "image": "/images/iconic/kappa_x-mod2.jpg"
+  },
+  {
+    "name": "Kongou",
+    "command": "Game.AddToInventory(\"Items.Preset_Liberty_Yorinobu\")",
+    "image": "/images/iconic/kongou.jpg"
+  },
+  {
+    "name": "Kyubi x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Kyubi_Legendary\")",
+    "image": "/images/iconic/kyubi_x-mod2.jpg"
+  },
+  {
+    "name": "La Chingona Dorada",
+    "command": "Game.AddToInventory(\"Items.Preset_Nue_Jackie\")",
+    "image": "/images/iconic/la_chingona_dorada.jpg"
+  },
+  {
+    "name": "Laika",
+    "command": "Game.AddToInventory(\"Items.Preset_Burya_AirDrop\")",
+    "image": "/images/iconic/laika.jpg"
+  },
+  {
+    "name": "Lexington x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Lexington_Shooting_Competition\")",
+    "image": "/images/iconic/lexington_x-mod2.jpg"
+  },
+  {
+    "name": "Lizzie",
+    "command": "Game.AddToInventory(\"Items.Preset_Omaha_Suzie\")",
+    "image": "/images/iconic/lizzie.jpg"
+  },
+  {
+    "name": "MA70 HB x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_MA70_Collectible\")",
+    "image": "/images/iconic/ma70_hb_x-mod2.jpg"
+  },
+  {
+    "name": "Malorian Arms 3516",
+    "command": "Game.AddToInventory(\"Items.Preset_Silverhand_3516\")",
+    "image": "/images/iconic/malorian_arms_3516.jpg"
+  },
+  {
+    "name": "Mancinella",
+    "command": "Game.AddToInventory(\"Items.Preset_Nova_Hitman\")",
+    "image": "/images/iconic/mancinella.jpg"
+  },
+  {
+    "name": "Midnight Arms Erebus",
+    "command": "Game.AddToInventory(\"Items.Preset_Borg4a_HauntedGun\")",
+    "image": "/images/iconic/midnight_arms_erebus.jpg"
+  },
+  {
+    "name": "Militech Hercules 3AX",
+    "command": "Game.AddToInventory(\"Items.Preset_Hercules_Prototype\")",
+    "image": "/images/iconic/militech_hercules_3ax.jpg"
+  },
+  {
+    "name": "Moron Labe",
+    "command": "Game.AddToInventory(\"Items.Legendary_Ajax_Moron\")",
+    "image": "/images/iconic/moron_labe.jpg"
+  },
+  {
+    "name": "Mox",
+    "command": "Game.AddToInventory(\"Items.Preset_Carnage_Mox\")",
+    "image": "/images/iconic/mox.jpg"
+  },
+  {
+    "name": "Murphy's Law",
+    "command": "Game.AddToInventory(\"Items.Preset_Baton_Murphy\")",
+    "image": "/images/iconic/murphy_s_law.jpg"
+  },
+  {
+    "name": "Nehan",
+    "command": "Game.AddToInventory(\"Items.Preset_Tanto_Saburo\")",
+    "image": "/images/iconic/nehan.jpg"
+  },
+  {
+    "name": "Nokota Osprey",
+    "command": "Game.AddToInventory(\"Items.Preset_Osprey_Prototype\")",
+    "image": "/images/iconic/nokota_osprey.jpg"
+  },
+  {
+    "name": "O'Five",
+    "command": "Game.AddToInventory(\"Items.Preset_Grad_Buck\")",
+    "image": "/images/iconic/o_five.jpg"
+  },
+  {
+    "name": "Ogou",
+    "command": "Game.AddToInventory(\"Items.Preset_Chao_VooDoo\")",
+    "image": "/images/iconic/ogou.jpg"
+  },
+  {
+    "name": "Ol' Reliable",
+    "command": "Game.AddToInventory(\"Items.Preset_Overture_Dante\")",
+    "image": "/images/iconic/ol__reliable.jpg"
+  },
+  {
+    "name": "Order",
+    "command": "Game.AddToInventory(\"Items.Preset_Satara_Brick\")",
+    "image": "/images/iconic/order.jpg"
+  },
+  {
+    "name": "Overwatch",
+    "command": "Game.AddToInventory(\"Items.Preset_Grad_Panam\")",
+    "image": "/images/iconic/overwatch.jpg"
+  },
+  {
+    "name": "Pariah",
+    "command": "Game.AddToInventory(\"Items.Preset_Ticon_Reed\")",
+    "image": "/images/iconic/pariah.jpg"
+  },
+  {
+    "name": "Pit Bull",
+    "command": "Game.AddToInventory(\"Items.Preset_Ajax_Amazon\")",
+    "image": "/images/iconic/pit_bull.jpg"
+  },
+  {
+    "name": "Pizdets",
+    "command": "Game.AddToInventory(\"Items.Preset_Warden_Boris\")",
+    "image": "/images/iconic/pizdets.jpg"
+  },
+  {
+    "name": "Plan B",
+    "command": "Game.AddToInventory(\"Items.Preset_Liberty_Dex\")",
+    "image": "/images/iconic/plan_b.jpg"
+  },
+  {
+    "name": "Pozhar x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Pozhar_Legendary\")",
+    "image": "/images/iconic/pozhar_x-mod2.jpg"
+  },
+  {
+    "name": "Prejudice",
+    "command": "Game.AddToInventory(\"Items.Preset_Masamune_Rogue\")",
+    "image": "/images/iconic/prejudice.jpg"
+  },
+  {
+    "name": "Pride",
+    "command": "Game.AddToInventory(\"Items.Preset_Liberty_Rogue\")",
+    "image": "/images/iconic/pride.jpg"
+  },
+  {
+    "name": "Problem Solver",
+    "command": "Game.AddToInventory(\"Items.Preset_Saratoga_Raffen\")",
+    "image": "/images/iconic/problem_solver.jpg"
+  },
+  {
+    "name": "Prototype: Shingen Mark V",
+    "command": "Game.AddToInventory(\"Items.Preset_Shingen_Prototype\")",
+    "image": "/images/iconic/prototype__shingen_mark_v.jpg"
+  },
+  {
+    "name": "Psalm 11:6",
+    "command": "Game.AddToInventory(\"Items.Legendary_Copperhead_Genesis\")",
+    "image": "/images/iconic/psalm_11_6.jpg"
+  },
+  {
+    "name": "Raiju",
+    "command": "Game.AddToInventory(\"Items.Preset_Senkoh_Prototype\")",
+    "image": "/images/iconic/raiju.jpg"
+  },
+  {
+    "name": "Riskit",
+    "command": "Game.AddToInventory(\"Items.Preset_Nue_Bree\")",
+    "image": "/images/iconic/riskit.jpg"
+  },
+  {
+    "name": "Rook",
+    "command": "Game.AddToInventory(\"Items.Preset_Lexington_Rook\")",
+    "image": "/images/iconic/rook.jpg"
+  },
+  {
+    "name": "Rosco",
+    "command": "Game.AddToInventory(\"Items.Preset_Overture_Dodger\")",
+    "image": "/images/iconic/rosco.jpg"
+  },
+  {
+    "name": "Sasquatch's Hammer",
+    "command": "Game.AddToInventory(\"Items.w_melee_boss_hammer\")",
+    "image": "/images/iconic/sasquatch_s_hammer.jpg"
+  },
+  {
+    "name": "Satori",
+    "command": "Game.AddToInventory(\"Items.Preset_Katana_Saburo\")",
+    "image": "/images/iconic/satori.jpg"
+  },
+  {
+    "name": "Scalpel",
+    "command": "Game.AddToInventory(\"Items.Preset_Katana_Surgeon\")",
+    "image": "/images/iconic/scalpel.jpg"
+  },
+  {
+    "name": "Scorch",
+    "command": "Game.AddToInventory(\"Items.Preset_Ticon_Gwent\")",
+    "image": "/images/iconic/scorch.jpg"
+  },
+  {
+    "name": "Seraph",
+    "command": "Game.AddToInventory(\"Items.Preset_Liberty_Padre\")",
+    "image": "/images/iconic/seraph.jpg"
+  },
+  {
+    "name": "Sir John Phallustiff",
+    "command": "Game.AddToInventory(\"Items.Preset_Dildo_Stout\")",
+    "image": "/images/iconic/sir_john_phallustiff.jpg"
+  },
+  {
+    "name": "Skippy",
+    "command": "Game.AddToInventory(\"Items.Preset_Yukimura_Skippy\")",
+    "image": "/images/iconic/skippy.jpg"
+  },
+  {
+    "name": "Sovereign",
+    "command": "Game.AddToInventory(\"Items.Preset_Igla_Sovereign\")",
+    "image": "/images/iconic/sovereign.jpg"
+  },
+  {
+    "name": "Sparky",
+    "command": "Game.AddToInventory(\"Items.Preset_Grad_Scav\")",
+    "image": "/images/iconic/sparky.jpg"
+  },
+  {
+    "name": "Stinger",
+    "command": "Game.AddToInventory(\"Items.Preset_Knife_Stinger\")",
+    "image": "/images/iconic/stinger.jpg"
+  },
+  {
+    "name": "Taigan",
+    "command": "Game.AddToInventory(\"Items.Preset_Metel_AirDrop\")",
+    "image": "/images/iconic/taigan.jpg"
+  },
+  {
+    "name": "The Headsman",
+    "command": "Game.AddToInventory(\"Items.Preset_Tactician_Headsman\")",
+    "image": "/images/iconic/the_headsman.jpg"
+  },
+  {
+    "name": "Tinker Bell",
+    "command": "Game.AddToInventory(\"Items.Preset_Baton_Tinker_Bell\")",
+    "image": "/images/iconic/tinker_bell.jpg"
+  },
+  {
+    "name": "Tsumetogi",
+    "command": "Game.AddToInventory(\"Items.Preset_Katana_Hiromi\")",
+    "image": "/images/iconic/tsumetogi.jpg"
+  },
+  {
+    "name": "Tsunami Rasetsu",
+    "command": "Game.AddToInventory(\"Items.Preset_Rasetsu_Prototype\")",
+    "image": "/images/iconic/tsunami_rasetsu.jpg"
+  },
+  {
+    "name": "Umbra x-MOD2",
+    "command": "Game.AddToInventory(\"Items.Preset_Umbra_Collectible\")",
+    "image": "/images/iconic/umbra_x-mod2.jpg"
+  },
+  {
+    "name": "Volkodav",
+    "command": "Game.AddToInventory(\"Items.Preset_Machete_Borg_AirDrop\")",
+    "image": "/images/iconic/volkodav.jpg"
+  },
+  {
+    "name": "Widow Maker",
+    "command": "Game.AddToInventory(\"Items.Preset_Achilles_Nash\")",
+    "image": "/images/iconic/widow_maker.jpg"
+  },
+  {
+    "name": "Wild Dog",
+    "command": "Game.AddToInventory(\"Items.Preset_Defender_Kurt\")",
+    "image": "/images/iconic/wild_dog.jpg"
+  },
+  {
+    "name": "Yasha",
+    "command": "Game.AddToInventory(\"Items.Preset_Ashura_Twitch\")",
+    "image": "/images/iconic/yasha.jpg"
+  },
+  {
+    "name": "Yinglong",
+    "command": "Game.AddToInventory(\"Items.Preset_Dian_Yinglong\")",
+    "image": "/images/iconic/yinglong.jpg"
+  },
+  {
+    "name": "Ozob's Nose",
+    "command": "Game.AddToInventory(\"Items.GrenadeOzobsNose\")",
+    "image": "/images/iconic/ozob_s_nose.jpg"
+  },
+  {
+    "name": "Axolotl",
+    "command": "Game.AddToInventory(\"Items.IconicAdvancedSubdermalCoProcessorLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/axolotl.jpg"
+  },
+  {
+    "name": "COX-2 Cybersomatic Optimizer",
+    "command": "Game.AddToInventory(\"Items.IconicBioConductorsLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/cox-2_cybersomatic_optimizer.jpg"
+  },
+  {
+    "name": "Quantum Tuner",
+    "command": "Game.AddToInventory(\"Items.AdvancedTimeBankLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/quantum_tuner.jpg"
+  },
+  {
+    "name": "RAM Reallocator",
+    "command": "Game.AddToInventory(\"Items.IconicCamilloRamManagerLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/ram_reallocator.jpg"
+  },
+  {
+    "name": "Chrome Compressor",
+    "command": "Game.AddToInventory(\"Items.CapacityBoosterLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/chrome_compressor.jpg"
+  },
+  {
+    "name": "Militech Berserk",
+    "command": "Game.AddToInventory(\"Items.AdvancedBerserkC4MK5PlusPlus\" , 1)",
+    "image": "/images/iconic/militech_berserk.jpg"
+  },
+  {
+    "name": "Militech Canto",
+    "command": "Game.AddToInventory(\"Items.HauntedCyberdeck_LegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/militech_canto.jpg"
+  },
+  {
+    "name": "NetWatch Netdriver",
+    "command": "Game.AddToInventory(\"Items.AdvancedNetwatchNetdriverMKLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/netwatch_netdriver.jpg"
+  },
+  {
+    "name": "Militech \"Apogee\"",
+    "command": "Game.AddToInventory(\"Items.AdvancedSandevistanApogeePlusPlus\" , 1)",
+    "image": "/images/iconic/militech__apogee_.jpg"
+  },
+  {
+    "name": "Militech \"Falcon\"",
+    "command": "Game.AddToInventory(\"Items.AdvancedSandevistanC4MK5PlusPlus\" , 1)",
+    "image": "/images/iconic/militech__falcon_.jpg"
+  },
+  {
+    "name": "Behavioral Imprint-synced Faceplate",
+    "command": "Game.AddToInventory(\"Items.MaskCW\" , 1)",
+    "image": "/images/iconic/behavioral_imprint-synced_faceplate.jpg"
+  },
+  {
+    "name": "Kiroshi \"Cockatrice\" Optics",
+    "command": "Game.AddToInventory(\"Items.Iconic_AdvancedKiroshiOpticsBareLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/kiroshi__cockatrice__optics.jpg"
+  },
+  {
+    "name": "Rara Avis",
+    "command": "Game.AddToInventory(\"Items.IconicAdvancedT1000LegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/rara_avis.jpg"
+  },
+  {
+    "name": "Immovable Force",
+    "command": "Game.AddToInventory(\"Items.IconicGunStabilizerLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/immovable_force.jpg"
+  },
+  {
+    "name": "Adreno-trigger",
+    "command": "Game.AddToInventory(\"Items.IconicAdvancedDetectorRushLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/adreno-trigger.jpg"
+  },
+  {
+    "name": "Deep-field Visual Interface",
+    "command": "Game.AddToInventory(\"Items.IconicAdvancedVisualCortexSupportLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/deep-field_visual_interface.jpg"
+  },
+  {
+    "name": "Revulsor",
+    "command": "Game.AddToInventory(\"Items.IconicAdvancedReflexRecorderLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/revulsor.jpg"
+  },
+  {
+    "name": "Electromag Recycler",
+    "command": "Game.AddToInventory(\"Items.IconicDischargeConnectorLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/electromag_recycler.jpg"
+  },
+  {
+    "name": "Isometric Stabilizer",
+    "command": "Game.AddToInventory(\"Items.IconicShockAbsorberLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/isometric_stabilizer.jpg"
+  },
+  {
+    "name": "Chitin",
+    "command": "Game.AddToInventory(\"Items.AdvancedBoringPlatingLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/chitin.jpg"
+  },
+  {
+    "name": "Peripheral Inverse",
+    "command": "Game.AddToInventory(\"Items.IconicAdvancedProximityReducerLegendaryPlusPlus\" , 1)",
+    "image": "/images/iconic/peripheral_inverse.jpg"
+  },
+  {
+    "name": "Leeroy Ligament System",
+    "command": "Game.AddToInventory(\"Items.IconicJenkinsTendonsPlusPlus\" , 1)",
+    "image": "/images/iconic/leeroy_ligament_system.jpg"
+  },
+  {
+    "name": "Amikiri Sound Cutter",
+    "command": "Game.AddToInventory(\"Items.Q303_mask_h1\" , 1)",
+    "image": "/images/iconic/amikiri_sound_cutter.jpg"
+  },
+  {
+    "name": "Johnny's aviators",
+    "command": "Game.AddToInventory(\"Items.Q005_Johnny_Glasses\" , 1)",
+    "image": "/images/iconic/johnny_s_aviators.jpg"
+  },
+  {
+    "name": "Replica of Johnny's Samurai jacket",
+    "command": "Game.AddToInventory(\"Items.SQ031_Samurai_Jacket\" , 1)",
+    "image": "/images/iconic/replica_of_johnny_s_samurai_jacket.jpg"
+  },
+  {
+    "name": "Johnny's tank top",
+    "command": "Game.AddToInventory(\"Items.Q005_Johnny_Shirt\" , 1)",
+    "image": "/images/iconic/johnny_s_tank_top.jpg"
+  },
+  {
+    "name": "Johnny's pants",
+    "command": "Game.AddToInventory(\"Items.Q005_Johnny_Pants\" , 1)",
+    "image": "/images/iconic/johnny_s_pants.jpg"
+  },
+  {
+    "name": "Johnny's shoes",
+    "command": "Game.AddToInventory(\"Items.Q005_Johnny_Shoes\" , 1)",
+    "image": "/images/iconic/johnny_s_shoes.jpg"
+  },
+  {
+    "name": "Johnny's shoes",
+    "command": "Game.AddToInventory(\"Items.Q303_mask_h1\" , 1)",
+    "image": "/images/iconic/johnny_s_shoes.jpg"
+  }
+]

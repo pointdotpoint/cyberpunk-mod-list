@@ -1,0 +1,290 @@
+[
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_archer_hella_player\", true, false)",
+    "name": "I spread out the codes for cars by dealers, as if you were viewing them in a Auto Fixer. Archer: Hella EC-D I360 [By default, and later after the loss will return for the Quest \"Human Nature\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_archer_quartz_player\", true, false)",
+    "name": "Quartz EC-T2 R660 [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_archer_quartz_nomad_player_02\", true, false)",
+    "name": "Quartz \u00abSpecter\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_archer_quartz_nomad_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686713\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tChevalier:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tThrax 388 \u00abJefferson\u00bb [Autofixer]",
+    "name": "Quartz \u00abSidewinder\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_chevalier_thrax_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_archer_quartz_nomad_player\", true, false) Chevalier: Thrax 388 \u00abJefferson\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_chevalier_emperor_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686714\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tQuadra:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tTurbo-R 740 [Autofixer]",
+    "name": "Emperor 620 \u00abRagnar\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_quadra_turbo_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_chevalier_emperor_player\", true, false) Quadra: Turbo-R 740 [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_quadra_turbo_r_player\", true, false)",
+    "name": "Turbo-T \u00abV-Tech\u00bb [Quest \"Sex On Wheels\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_quadra_type66_player\", true, false)",
+    "name": "Type-66 \u00abJen Rowley\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_quadra_type66_avenger_player\", true, false)",
+    "name": "Type-66 \u00abAvenger\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_quadra_type66_nomad_ncu_player\", true, false)",
+    "name": "Type-66 \u00abCthulu\u00bb [Quest's \"The Beast in Me\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_quadra_type66_nomad_player\", true, false)",
+    "name": "Type-66 \u00abJavelina\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_quadra_type66_nomad_player_03\", true, false)",
+    "name": "Type-66 \u00abWingate\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_quadra_type66_nomad_tribute\", true, false)",
+    "name": "Type-66 \u00abHoon\u00bb [Quest \"I'm in Love with My Car\" (DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_quadra_sport_r7_player\", true, false)",
+    "name": "Sport R-7 \u00abChiaroscuro\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_quadra_sport_r7_player_02\", true, false)",
+    "name": "Sport R-7 \u00abVigilante\u00bb [Pre-Order DLC Phantom Liberty]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_quadra_sport_r7_mrhands\", true, false)",
+    "name": "Sport R-7 \u00abSterling\u00bb [Quest \"Hi Ho Silver Lining\" (DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_quadra_sport_r7_netrunner\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686715\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tMizutani:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tShion MZ2 [Autofixer]",
+    "name": "Sport R-7 \u00abCharon\u00bb [Quest \"Moving Heat\" (DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_mizutani_shion_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_quadra_sport_r7_netrunner\", true, false) Mizutani: Shion MZ2 [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_mizutani_shion_nomad_player\", true, false)",
+    "name": "Shion \u00abCoyote\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_mizutani_shion_nomad_02_player\", true, false)",
+    "name": "Shion \u00abBonewrecker\u00bb [Quest \"With a Little Help from My Friends\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_mizutani_shion_nomad_player_missiles\", true, false)",
+    "name": "Shion \u00abSamum\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_mizutani_hozuki_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686716\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tMakigai:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tMaimai P126 [Autofixer]",
+    "name": "Hozuki \u00abHoseki\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_makigai_maimai_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_mizutani_hozuki_player\", true, false) Makigai: Maimai P126 [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_makigai_tanishi_player\", true, false)",
+    "name": "Tanishi \u00abKuma\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_makigai_tanishi_player_mr_hands\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686717\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tThorton:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tColby CX410 \u00abButte\u00bb (Green) [Autofixer]",
+    "name": "Tanishi T400 [Given for free by Mr. Hands after first accessing Dogtown (DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard25_thorton_colby_pickup_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_makigai_tanishi_player_mr_hands\", true, false) Thorton: Colby CX410 \u00abButte\u00bb (Green) [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard25_thorton_colby_pickup_02_player\", true, false)",
+    "name": "Colby CX410 \u00abButte\u00bb (Red) [Quest \"Dressed to Kill\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_thorton_colby_player\", true, false)",
+    "name": "Colby C125 [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard25_thorton_colby_nomad_player\", true, false)",
+    "name": "Colby \u00abLittle Mule\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard25_thorton_colby_nomad_player_missiles\", true, false)",
+    "name": "Colby \u00abVulture\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard25_thorton_colby_pickup_kurtz_player\", true, false)",
+    "name": "Colby (Model \u00abBarghest\u00bb) [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_thorton_galena_player\", true, false)",
+    "name": "Galena G240 [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_thorton_galena_bobas_player\", true, false)",
+    "name": "Galena \u00abRattler\u00bb [Quest \"These Boots Are Made for Walkin\" (Only for V-Nomad)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_thorton_galena_nomad_player\", true, false)",
+    "name": "Galena \u00abGecko\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_thorton_galena_nomad_player_missiles\", true, false)",
+    "name": "Galena \u00abLocust\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard25_thorton_merrimac_player\", true, false)",
+    "name": "Merrimac \u00abWarlock\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_thorton_mackinaw_player\", true, false)",
+    "name": "Mackinaw MTL1 [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_thorton_mackinaw_ncu_player\", true, false)",
+    "name": "Mackinaw \u00abBeast\u00bb [Quest's \"The Beast in Me\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_utility4_thorton_mackinaw_bmf_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686718\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tVillefort:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tColumbus V340-F \u00abFreight\u00bb [Autofixer]",
+    "name": "Mackinaw \u00abDemiurge\u00bb (Monster Truck) [Hidden Quest \"FF06B5\" (DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard25_villefort_columbus_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_utility4_thorton_mackinaw_bmf_player\", true, false) Villefort: Columbus V340-F \u00abFreight\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_villefort_cortes_player\", true, false)",
+    "name": "Cortes V5000 \u00abValor\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard2_villefort_cortes_delamain_player\", true, false)",
+    "name": "Cortes \u00abDelamain \u211621\u00bb [Quest \"Don't Lose Your Mind\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_villefort_deleon_player\", true, false)",
+    "name": "Deleon \u00abVindicator\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_villefort_alvarado_player\", true, false)",
+    "name": "Alvarado V4F 570 \u00abDelegate\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_villefort_alvarado_hearse_player\", true, false)",
+    "name": "Alvarado V4FH 570 \u00abHerman\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_villefort_alvarado_valentinos_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686719\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tRayfield:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tAerondight \u00abGuinevere\u00bb [Autofixer]",
+    "name": "Alvarado V4FC 580 \u00abVato\u00bb [Quest \"Beat on the Brat: The Glen\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_rayfield_aerondight_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_villefort_alvarado_valentinos_player\", true, false) Rayfield: Aerondight \u00abGuinevere\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_rayfield_caliburn_player\", true, false)",
+    "name": "Caliburn [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_rayfield_caliburn_02_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686720\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tMahir:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tSupron FS3 [Autofixer]",
+    "name": "Caliburn (Black) [Quest \"Murk Man Returns Again Once More Forever\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard25_mahir_supron_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_rayfield_caliburn_02_player\", true, false) Mahir: Supron FS3 [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_mahir_supron_kurtz_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686721\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tHerrera:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tOutlaw GTS [Autofixer]",
+    "name": "Supron \u00abTrailbruiser\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_herrera_outlaw_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_mahir_supron_kurtz_player\", true, false) Herrera: Outlaw GTS [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_herrera_outlaw_heist_player\", true, false)",
+    "name": "Outlaw \u00abWeiler\u00bb [Quest \"Baby Let Me Take You\" (DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_herrera_riptide_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686722\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tMotorcycle's:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tArch Nazar\u00e9 [Autofixer]",
+    "name": "Riptide \u00abTerrier\u00bb [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike2_arch_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_herrera_riptide_player\", true, false) Motorcycle's: Arch Nazar\u00e9 [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike2_arch_tyger_player\", true, false)",
+    "name": "Arch Nazar\u00e9 \u00abItsumade\u00bb [Quest \"The Highwayman\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike2_arch_jackie_player\", true, false)",
+    "name": "\u00abArch\u00bb Jackie\u2019s [Quest \"Heroes\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike2_arch_jackie_tuned_player\", true, false)",
+    "name": "Tuned \u00abArch\u00bb Jackie\u2019s [Quest \"Heroes\" (If earlier in the story, at the beginning of the quest \"The Pickup\" to talk to Jackie about his motorcycle and use an additional line of dialogue with the upgraded level of technology up to 9)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike2_arch_linas_player\", true, false)",
+    "name": "Arch Malina-Mobile [Quest \"Dazed and Confused\" (DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike3_brennan_apollo_player\", true, false)",
+    "name": "Brennan \u00abApollo\u00bb [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike3_brennan_apollo_nomad_player\", true, false)",
+    "name": "Brennan \u00abApollo\u00bb Scorpion\u2019s [Quest \"Life During Wartime\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike1_yaiba_kusanagi_player\", true, false)",
+    "name": "Yaiba Kusanagi CT-3X [Autofixer]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike1_yaiba_kusanagi_tyger_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686723\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tOther:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\tHellhound [Autofixer(DLC)]",
+    "name": "Yaiba Kusanagi \u00abMizuchi\u00bb [Only console, version for Gang \"Tyger Claws\"]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_standard3_militech_hellhound_player\", true, false)",
+    "name": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sportbike1_yaiba_kusanagi_tyger_player\", true, false) Other: Hellhound [Autofixer(DLC)]"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_porsche_911turbo_player\", true, false)\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"subSection detailBox\" id=\"6686782\">\n\t\t\t\t\t\t\t<div class=\"subSectionTitle\">\n\t\t\t\t\t\t\t\tThe same thing, but in Russian language...\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"subSectionDesc\">\n\t\t\t\t\t\t\t\t<a class=\"bb_link\" href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3097282998\" target=\"_blank\" rel=\"\"  id=\"dynamiclink_0\">https://steamcommunity.com/sharedfiles/filedetails/?id=3097282998</a>\t\t\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div style=\"clear: both\"></div>\n\t\t\t\t\t\t\t\t\t</div>\n\n\t\t\t<div id=\"-1\">\n\t\t\t\t<div class=\"detailBox\"><script type=\"text/javascript\">\n\t$J( function() {\n\t\tInitializeCommentThread( \"PublishedFile_Public\", \"PublishedFile_Public_76561198311409404_3097320206\", {\"feature\":\"3097320206\",\"feature2\":-1,\"owner\":\"76561198311409404\",\"total_count\":13,\"start\":0,\"pagesize\":10,\"has_upvoted\":0,\"upvotes\":0,\"votecountid\":null,\"voteupid\":null,\"commentcountid\":null,\"subscribed\":false,\"extended_data\":\"{\\\"contributors\\\":[\\\"76561198311409404\\\",{}],\\\"appid\\\":1091500,\\\"sharedfile\\\":{\\\"m_parentsDetails\\\":null,\\\"m_parentBundlesDetails\\\":null,\\\"m_bundledChildren\\\":[],\\\"m_ownedBundledItems\\\":[]},\\\"parent_item_reported\\\":false}\"}, 'https://steamcommunity.com/comment/PublishedFile_Public/', 40 );\n\t} );\n</script>\n<div class=\"commentthread_area\"  id=\"commentthread_PublishedFile_Public_76561198311409404_3097320206_area\">\n\t<div class=\"commentthread_header\">\n\t\t<div class=\"commentthread_header_and_count\">\n\t\t\t<span class=\"ellipsis commentthread_count_label\">\n\t\t\t\t\t\t\t\t\t<span id=\"commentthread_PublishedFile_Public_76561198311409404_3097320206_totalcount\">13</span> Comments\t\t\t\t\t\t\t</span>\n\t\t\t<div class=\"commentthread_count\">\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"commentthread_paging \" id=\"commentthread_PublishedFile_Public_76561198311409404_3097320206_pagecontrols\">\n\t\t\t\t\t\t<div class=\"commentthread_pagelinks_ctn\">\n\t\t\t\t<a id=\"commentthread_PublishedFile_Public_76561198311409404_3097320206_pagebtn_prev\" href=\"javascript:void(0);\" class=\"pagebtn\">&lt;</a>\n\t\t\t\t<span id=\"commentthread_PublishedFile_Public_76561198311409404_3097320206_pagelinks\" class=\"commentthread_pagelinks\"></span>\n\t\t\t\t<span id=\"commentthread_PublishedFile_Public_76561198311409404_3097320206_pagedropdown\" class=\"commentthread_pagedropdown\"></span>\n\t\t\t\t<a id=\"commentthread_PublishedFile_Public_76561198311409404_3097320206_pagebtn_next\" href=\"javascript:void(0);\" class=\"pagebtn\">&gt;</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\t\t\t<!-- 21 -->\n\t\t\t\t<div style=\"\" class=\"commentthread_comment_container\" id=\"commentthread_PublishedFile_Public_76561198311409404_3097320206_postcontainer\">\n\t\t\t<div class=\"commentthread_comments\" id=\"commentthread_PublishedFile_Public_76561198311409404_3097320206_posts\">\n\t\t\t\t\t\t\n\t\n\t<div data-panel=\"{\"flow-children\":\"row\",\"type\":\"PanelGroup\"}\" class=\"commentthread_comment responsive_body_text   \" id=\"comment_653730014598149032\" style=\"\">\n\n\t\t<div class=\"commentthread_comment_content\">\n\t\t\t<div data-panel=\"{\"flow-children\":\"row\"}\" class=\"commentthread_comment_author\">\n\t\t\t\t\t\t\t\t<div class=\"commentthread_comment_avatar playerAvatar offline\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"profile_avatar_frame\">\n\t\t\t\t\t<picture>\n\t\t\t\t\t\t<source media=\"(prefers-reduced-motion: reduce)\" srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1239300/a9ca31fe951b5ae5d265f5ba97539aced1286cfa.png\"></source>\n\t\t\t\t\t\t<source srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1239300/083c19cc935001ee0508aff3b948da62b6a093f6.png\"></source>\n\t\t\t\t\t\t<img src=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1239300/083c19cc935001ee0508aff3b948da62b6a093f6.png\">\n\t\t\t\t\t</picture>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://steamcommunity.com/profiles/76561199549122224\" data-miniprofile=\"1588856496\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://avatars.fastly.steamstatic.com/0fda13b24f7d9c389520677d73c5219c577d127f.jpg\" srcset=\"https://avatars.fastly.steamstatic.com/0fda13b24f7d9c389520677d73c5219c577d127f.jpg 1x, https://avatars.fastly.steamstatic.com/0fda13b24f7d9c389520677d73c5219c577d127f_medium.jpg 2x\">\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"author_name_group\">\n\t\t\t\t\t<div class=\"flex_row\">\n\t\t\t\t\t\t<a class=\"hoverunderline commentthread_author_link\" href=\"https://steamcommunity.com/profiles/76561199549122224\"  data-miniprofile=\"1588856496\">\n\t\t\t\t\t\t\t<bdi>ghostEGKAcrow117</bdi></a>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\" title=\"28 May, 2026 @ 7:57:59 am PDT\" data-timestamp=\"1779980279\">\n\t\t\t\t\t\t28 May @ 7:57am&nbsp;\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<div class=\"commentthread_comment_actions\" >\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"commentthread_comment_text\" id=\"comment_content_653730014598149032\">\n\t\t\t\tWhat do I do to return a vehicle, is there a command for it, then buy it later??\t\t\t</div>\n\t\t\t<div class=\"comment_footer_ctn\">\n\t\t\t\t\t\t\t\t\t<div></div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\t\n\t\n\t<div data-panel=\"{\"flow-children\":\"row\",\"type\":\"PanelGroup\"}\" class=\"commentthread_comment responsive_body_text   \" id=\"comment_805721252880859343\" style=\"\">\n\n\t\t<div class=\"commentthread_comment_content\">\n\t\t\t<div data-panel=\"{\"flow-children\":\"row\"}\" class=\"commentthread_comment_author\">\n\t\t\t\t\t\t\t\t<div class=\"commentthread_comment_avatar playerAvatar online\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"profile_avatar_frame\">\n\t\t\t\t\t<picture>\n\t\t\t\t\t\t<source media=\"(prefers-reduced-motion: reduce)\" srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1992640/202b120f20270472cae8f6468dabc024b05b3080.png\"></source>\n\t\t\t\t\t\t<source srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1992640/f3b36afd42fc5bb754d5b03f6a96d5f3a0a45da2.png\"></source>\n\t\t\t\t\t\t<img src=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1992640/f3b36afd42fc5bb754d5b03f6a96d5f3a0a45da2.png\">\n\t\t\t\t\t</picture>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://steamcommunity.com/profiles/76561198156331539\" data-miniprofile=\"196065811\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://avatars.fastly.steamstatic.com/c48f31379c2272b1de7fcc2de0ee61b53c14377c.jpg\" srcset=\"https://avatars.fastly.steamstatic.com/c48f31379c2272b1de7fcc2de0ee61b53c14377c.jpg 1x, https://avatars.fastly.steamstatic.com/c48f31379c2272b1de7fcc2de0ee61b53c14377c_medium.jpg 2x\">\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"author_name_group\">\n\t\t\t\t\t<div class=\"flex_row\">\n\t\t\t\t\t\t<a class=\"hoverunderline commentthread_author_link\" href=\"https://steamcommunity.com/profiles/76561198156331539\"  data-miniprofile=\"196065811\">\n\t\t\t\t\t\t\t<bdi>AlexMBrownstone</bdi></a>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\" title=\"31 March, 2026 @ 4:49:10 am PDT\" data-timestamp=\"1774957750\">\n\t\t\t\t\t\t31 Mar @ 4:49am&nbsp;\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<div class=\"commentthread_comment_actions\" >\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"commentthread_comment_text\" id=\"comment_content_805721252880859343\">\n\t\t\t\tNeed the",
+    "name": "Porsche 911 II (930) Turbo [Quest \"Chippin' In\"]"
+  },
+  {
+    "command": "vs = Game.GetVehicleSystem() \nvs:EnablePlayerVehicle('Vehicle.v_sportbike3_brennan_apollo_player_02', true, false)\t\t\t</div>\n\t\t\t<div class=\"comment_footer_ctn\">\n\t\t\t\t\t\t\t\t\t<div></div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\t\n\t\n\t<div data-panel=\"{\"flow-children\":\"row\",\"type\":\"PanelGroup\"}\" class=\"commentthread_comment responsive_body_text   \" id=\"comment_598541076225216637\" style=\"\">\n\n\t\t<div class=\"commentthread_comment_content\">\n\t\t\t<div data-panel=\"{\"flow-children\":\"row\"}\" class=\"commentthread_comment_author\">\n\t\t\t\t\t\t\t\t<div class=\"commentthread_comment_avatar playerAvatar offline\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"profile_avatar_frame\">\n\t\t\t\t\t<picture>\n\t\t\t\t\t\t<source media=\"(prefers-reduced-motion: reduce)\" srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/382560/c5d10bc1ce84be325015296f2f12850e7ace9864.png\"></source>\n\t\t\t\t\t\t<source srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/382560/a2af18d987a14aba583c3b06deebd7ca8349c540.png\"></source>\n\t\t\t\t\t\t<img src=\"https://shared.fastly.steamstatic.com/community_assets/images/items/382560/a2af18d987a14aba583c3b06deebd7ca8349c540.png\">\n\t\t\t\t\t</picture>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://steamcommunity.com/id/RustyMonke_\" data-miniprofile=\"1246015263\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://avatars.fastly.steamstatic.com/37f6c7cf121e981546a55bc4b9ed2b5a7a341c95.jpg\" srcset=\"https://avatars.fastly.steamstatic.com/37f6c7cf121e981546a55bc4b9ed2b5a7a341c95.jpg 1x, https://avatars.fastly.steamstatic.com/37f6c7cf121e981546a55bc4b9ed2b5a7a341c95_medium.jpg 2x\">\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"author_name_group\">\n\t\t\t\t\t<div class=\"flex_row\">\n\t\t\t\t\t\t<a class=\"hoverunderline commentthread_author_link\" href=\"https://steamcommunity.com/id/RustyMonke_\"  data-miniprofile=\"1246015263\">\n\t\t\t\t\t\t\t<bdi>RustyMonke_</bdi></a>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\" title=\"21 October, 2025 @ 2:12:29 am PDT\" data-timestamp=\"1761037949\">\n\t\t\t\t\t\t21 Oct, 2025 @ 2:12am&nbsp;\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<div class=\"commentthread_comment_actions\" >\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"commentthread_comment_text\" id=\"comment_content_598541076225216637\">\n\t\t\t\tFor anyone who was completely wiped of all vehicles same as me and lost the delamain ai taxi in the process or just wants it early.",
+    "name": "Yaiba Arv Q340 Semimaru Matsumoto Rise 9 Mar @ 8:28am&nbsp; Brennan Apollo 650-S"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_delamain_taxi\", true, false)\t\t\t</div>\n\t\t\t<div class=\"comment_footer_ctn\">\n\t\t\t\t\t\t\t\t\t<div></div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\t\n\t\n\t<div data-panel=\"{\"flow-children\":\"row\",\"type\":\"PanelGroup\"}\" class=\"commentthread_comment responsive_body_text   \" id=\"comment_592906450273056030\" style=\"\">\n\n\t\t<div class=\"commentthread_comment_content\">\n\t\t\t<div data-panel=\"{\"flow-children\":\"row\"}\" class=\"commentthread_comment_author\">\n\t\t\t\t\t\t\t\t<div class=\"commentthread_comment_avatar playerAvatar offline\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"profile_avatar_frame\">\n\t\t\t\t\t<picture>\n\t\t\t\t\t\t<source media=\"(prefers-reduced-motion: reduce)\" srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/601220/bdfaaad0a6d42c3dbbcd9f25c3d42343cb12fd5b.png\"></source>\n\t\t\t\t\t\t<source srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/601220/4957cc68eec4c2d9ee1df6de65f073951d1e94ee.png\"></source>\n\t\t\t\t\t\t<img src=\"https://shared.fastly.steamstatic.com/community_assets/images/items/601220/4957cc68eec4c2d9ee1df6de65f073951d1e94ee.png\">\n\t\t\t\t\t</picture>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://steamcommunity.com/id/Sabre-Plays\" data-miniprofile=\"56822807\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://avatars.fastly.steamstatic.com/fe166213669779f0e64d1423800b32004f67f7db.jpg\" srcset=\"https://avatars.fastly.steamstatic.com/fe166213669779f0e64d1423800b32004f67f7db.jpg 1x, https://avatars.fastly.steamstatic.com/fe166213669779f0e64d1423800b32004f67f7db_medium.jpg 2x\">\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"author_name_group\">\n\t\t\t\t\t<div class=\"flex_row\">\n\t\t\t\t\t\t<a class=\"hoverunderline commentthread_author_link\" href=\"https://steamcommunity.com/id/Sabre-Plays\"  data-miniprofile=\"56822807\">\n\t\t\t\t\t\t\t<bdi>SabrePlays</bdi></a>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\" title=\"24 August, 2025 @ 5:37:50 am PDT\" data-timestamp=\"1756039070\">\n\t\t\t\t\t\t24 Aug, 2025 @ 5:37am&nbsp;\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<div class=\"commentthread_comment_actions\" >\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"commentthread_comment_text\" id=\"comment_content_592906450273056030\">\n\t\t\t\tMizutani MZT",
+    "name": "Unknown Vehicle"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport2_mizutani_shion_targa_player\", true, false)\t\t\t</div>\n\t\t\t<div class=\"comment_footer_ctn\">\n\t\t\t\t\t\t\t\t\t<div></div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\t\n\t\n\t<div data-panel=\"{\"flow-children\":\"row\",\"type\":\"PanelGroup\"}\" class=\"commentthread_comment responsive_body_text   \" id=\"comment_591779517900529200\" style=\"\">\n\n\t\t<div class=\"commentthread_comment_content\">\n\t\t\t<div data-panel=\"{\"flow-children\":\"row\"}\" class=\"commentthread_comment_author\">\n\t\t\t\t\t\t\t\t<div class=\"commentthread_comment_avatar playerAvatar offline\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"profile_avatar_frame\">\n\t\t\t\t\t<picture>\n\t\t\t\t\t\t<source media=\"(prefers-reduced-motion: reduce)\" srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1594460/025c3ce6fae160eb1b6fcb644eebbdb8a7b3700b.png\"></source>\n\t\t\t\t\t\t<source srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1594460/3c64a25739fd5669308c2027feefc3a5c2badaf9.png\"></source>\n\t\t\t\t\t\t<img src=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1594460/3c64a25739fd5669308c2027feefc3a5c2badaf9.png\">\n\t\t\t\t\t</picture>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://steamcommunity.com/id/snuffbun\" data-miniprofile=\"42024456\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://avatars.fastly.steamstatic.com/e9a282216b7d5da8d7a92e8d1bf6407d845c238a.jpg\" srcset=\"https://avatars.fastly.steamstatic.com/e9a282216b7d5da8d7a92e8d1bf6407d845c238a.jpg 1x, https://avatars.fastly.steamstatic.com/e9a282216b7d5da8d7a92e8d1bf6407d845c238a_medium.jpg 2x\">\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"author_name_group\">\n\t\t\t\t\t<div class=\"flex_row\">\n\t\t\t\t\t\t<a class=\"hoverunderline commentthread_author_link\" href=\"https://steamcommunity.com/id/snuffbun\"  data-miniprofile=\"42024456\">\n\t\t\t\t\t\t\t<bdi>Morgan</bdi></a>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\" title=\"12 August, 2025 @ 6:43:47 pm PDT\" data-timestamp=\"1755049427\">\n\t\t\t\t\t\t12 Aug, 2025 @ 6:43pm&nbsp;\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<div class=\"commentthread_comment_actions\" >\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"commentthread_comment_text\" id=\"comment_content_591779517900529200\">\n\t\t\t\twhat about the muramusa!!!!!!!!!!!!!\t\t\t</div>\n\t\t\t<div class=\"comment_footer_ctn\">\n\t\t\t\t\t\t\t\t\t<div></div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\t\n\t\n\t<div data-panel=\"{\"flow-children\":\"row\",\"type\":\"PanelGroup\"}\" class=\"commentthread_comment responsive_body_text   \" id=\"comment_592903200890295764\" style=\"\">\n\n\t\t<div class=\"commentthread_comment_content\">\n\t\t\t<div data-panel=\"{\"flow-children\":\"row\"}\" class=\"commentthread_comment_author\">\n\t\t\t\t\t\t\t\t<div class=\"commentthread_comment_avatar playerAvatar offline\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"profile_avatar_frame\">\n\t\t\t\t\t<picture>\n\t\t\t\t\t\t<source media=\"(prefers-reduced-motion: reduce)\" srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/253230/06a59fd94bb8f1fb2b1a0eac8885e5148c5b6442.png\"></source>\n\t\t\t\t\t\t<source srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/253230/ff0e949ff66f2208a005ed51244ad145f0b68904.png\"></source>\n\t\t\t\t\t\t<img src=\"https://shared.fastly.steamstatic.com/community_assets/images/items/253230/ff0e949ff66f2208a005ed51244ad145f0b68904.png\">\n\t\t\t\t\t</picture>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://steamcommunity.com/id/willgander\" data-miniprofile=\"112304560\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://avatars.fastly.steamstatic.com/cb34f30a6ed3057ad3a08b5460aa020263e5239f.jpg\" srcset=\"https://avatars.fastly.steamstatic.com/cb34f30a6ed3057ad3a08b5460aa020263e5239f.jpg 1x, https://avatars.fastly.steamstatic.com/cb34f30a6ed3057ad3a08b5460aa020263e5239f_medium.jpg 2x\">\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"author_name_group\">\n\t\t\t\t\t<div class=\"flex_row\">\n\t\t\t\t\t\t<a class=\"hoverunderline commentthread_author_link\" href=\"https://steamcommunity.com/id/willgander\"  data-miniprofile=\"112304560\">\n\t\t\t\t\t\t\t<bdi>willgander</bdi></a>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\" title=\"20 July, 2025 @ 9:20:45 pm PDT\" data-timestamp=\"1753071645\">\n\t\t\t\t\t\t20 Jul, 2025 @ 9:20pm&nbsp;\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<div class=\"commentthread_comment_actions\" >\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"commentthread_comment_text\" id=\"comment_content_592903200890295764\">\n\t\t\t\tChevillon Legatus 450 Aquila:",
+    "name": "Unknown Vehicle"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_utility4_chevalier_legatus_player\", true, false)\t\t\t</div>\n\t\t\t<div class=\"comment_footer_ctn\">\n\t\t\t\t\t\t\t\t\t<div></div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\t\n\t\n\t<div data-panel=\"{\"flow-children\":\"row\",\"type\":\"PanelGroup\"}\" class=\"commentthread_comment responsive_body_text   \" id=\"comment_592902882169337913\" style=\"\">\n\n\t\t<div class=\"commentthread_comment_content\">\n\t\t\t<div data-panel=\"{\"flow-children\":\"row\"}\" class=\"commentthread_comment_author\">\n\t\t\t\t\t\t\t\t<div class=\"commentthread_comment_avatar playerAvatar offline\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"profile_avatar_frame\">\n\t\t\t\t\t<picture>\n\t\t\t\t\t\t<source media=\"(prefers-reduced-motion: reduce)\" srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1451190/2d7c074a3bc6682a33ed0998ced30d5403c655ad.png\"></source>\n\t\t\t\t\t\t<source srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1451190/c54be80ce1cf1f688875aa72d4f026f1e78b8f70.png\"></source>\n\t\t\t\t\t\t<img src=\"https://shared.fastly.steamstatic.com/community_assets/images/items/1451190/c54be80ce1cf1f688875aa72d4f026f1e78b8f70.png\">\n\t\t\t\t\t</picture>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://steamcommunity.com/profiles/76561199171218115\" data-miniprofile=\"1210952387\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://avatars.fastly.steamstatic.com/d03cdc4a2bebecdc57c0408a1046d45628c26e99.jpg\" srcset=\"https://avatars.fastly.steamstatic.com/d03cdc4a2bebecdc57c0408a1046d45628c26e99.jpg 1x, https://avatars.fastly.steamstatic.com/d03cdc4a2bebecdc57c0408a1046d45628c26e99_medium.jpg 2x\">\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"author_name_group\">\n\t\t\t\t\t<div class=\"flex_row\">\n\t\t\t\t\t\t<a class=\"hoverunderline commentthread_author_link\" href=\"https://steamcommunity.com/profiles/76561199171218115\"  data-miniprofile=\"1210952387\">\n\t\t\t\t\t\t\t<bdi>vin</bdi></a>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\" title=\"17 July, 2025 @ 11:21:29 pm PDT\" data-timestamp=\"1752819689\">\n\t\t\t\t\t\t17 Jul, 2025 @ 11:21pm&nbsp;\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<div class=\"commentthread_comment_actions\" >\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"commentthread_comment_text\" id=\"comment_content_592902882169337913\">\n\t\t\t\tRayfield Caliburn Mordred",
+    "name": "Unknown Vehicle"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_rayfield_caliburn_mordred_player\", true, false)",
+    "name": "Unknown Vehicle"
+  },
+  {
+    "command": "Game.GetVehicleSystem():EnablePlayerVehicle(\"Vehicle.v_sport1_yaiba_semimaru_player\", true, false)\t\t\t</div>\n\t\t\t<div class=\"comment_footer_ctn\">\n\t\t\t\t\t\t\t\t\t<div></div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\t\n\t\n\t<div data-panel=\"{\"flow-children\":\"row\",\"type\":\"PanelGroup\"}\" class=\"commentthread_comment responsive_body_text   \" id=\"comment_592895604607208604\" style=\"\">\n\n\t\t<div class=\"commentthread_comment_content\">\n\t\t\t<div data-panel=\"{\"flow-children\":\"row\"}\" class=\"commentthread_comment_author\">\n\t\t\t\t\t\t\t\t<div class=\"commentthread_comment_avatar playerAvatar offline\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"profile_avatar_frame\">\n\t\t\t\t\t<picture>\n\t\t\t\t\t\t<source media=\"(prefers-reduced-motion: reduce)\" srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/997010/a2030b89ae35baf263329d371bfb6865f72ae6c7.png\"></source>\n\t\t\t\t\t\t<source srcset=\"https://shared.fastly.steamstatic.com/community_assets/images/items/997010/a360e7140580d68501df5ecd9755c67c6ea68ad8.png\"></source>\n\t\t\t\t\t\t<img src=\"https://shared.fastly.steamstatic.com/community_assets/images/items/997010/a360e7140580d68501df5ecd9755c67c6ea68ad8.png\">\n\t\t\t\t\t</picture>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://steamcommunity.com/id/Tinman1287\" data-miniprofile=\"69496426\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://avatars.fastly.steamstatic.com/9e81ff0b7c010fb9cfed98c21ec1835693816ddd.jpg\" srcset=\"https://avatars.fastly.steamstatic.com/9e81ff0b7c010fb9cfed98c21ec1835693816ddd.jpg 1x, https://avatars.fastly.steamstatic.com/9e81ff0b7c010fb9cfed98c21ec1835693816ddd_medium.jpg 2x\">\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"author_name_group\">\n\t\t\t\t\t<div class=\"flex_row\">\n\t\t\t\t\t\t<a class=\"hoverunderline commentthread_author_link\" href=\"https://steamcommunity.com/id/Tinman1287\"  data-miniprofile=\"69496426\">\n\t\t\t\t\t\t\t<bdi>Tinman1287</bdi></a>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"commentthread_comment_timestamp\" title=\"27 April, 2025 @ 4:15:43 am PDT\" data-timestamp=\"1745752543\">\n\t\t\t\t\t\t27 Apr, 2025 @ 4:15am&nbsp;\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<div class=\"commentthread_comment_actions\" >\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"commentthread_comment_text\" id=\"comment_content_592895604607208604\">\n\t\t\t\tDoes anyone know the codes for the Mizutani MZ1 and Targa MZT?",
+    "name": "Unknown Vehicle"
+  }
+]
