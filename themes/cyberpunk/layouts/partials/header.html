@@ -1,0 +1,15 @@
+{{- $modCount := len .Site.Data.mods -}}
+{{- $cmdCount := add (add (len .Site.Data.commands) (len .Site.Data.clothes)) (add (len .Site.Data.vehicles) (len .Site.Data.iconic)) -}}
+<header class="shell-header">
+    <div class="header-left">
+        <a href="/" class="brand">CYBERMODS<span class="brand-caret">_</span></a>
+        <nav class="top-nav">
+            <a href="/" class="nav-link{{ if .IsHome }} active{{ end }}">MOD_DB <span class="nav-count">{{ $modCount }}</span></a>
+            <a href="/commands/" class="nav-link{{ if eq .Layout "commands" }} active{{ end }}">CMD_DB <span class="nav-count">{{ $cmdCount }}</span></a>
+        </nav>
+    </div>
+    <div class="header-right hud-meta">
+        <span class="hud-label">NC_TIME</span>
+        <span class="hud-clock" id="hudClock">--:--:--</span>
+    </div>
+</header>
