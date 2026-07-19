@@ -1,9 +1,9 @@
 [
   {
     "id": "1",
-    "type": "MONEY \u20ac$",
+    "type": "MONEY €$",
     "command": "Game.AddToInventory(\"Items.money\", 500000)",
-    "name": "+ 500,000 \u20ac$",
+    "name": "+ 500,000 €$",
     "notes": "-"
   },
   {
@@ -150,14 +150,14 @@
     "id": "22",
     "type": "CRAFTING COMPONENTS",
     "command": "if not userWarnedCracked then print(' \\n\\t[ WARNING ]  Adding this item may interfere with some quests, IF YOU STILL WANT TO ADD IT TO THE INVENTORY, ENTER THE COMMAND AGAIN.\\n ') userWarnedCracked = true; else print(' \\n\\tOK, Item Added.\\n ') Game.AddToInventory(\"Items.Q305_Cerberus_core_cracked\", 1) userWarnedCracked = nil; end;",
-    "name": "CERBERUS\u2019 DECODED BEHAVIORAL SYSTEM COMPONENT",
+    "name": "CERBERUS’ DECODED BEHAVIORAL SYSTEM COMPONENT",
     "notes": "2.0 PATCH"
   },
   {
     "id": "23",
     "type": "CRAFTING COMPONENTS",
     "command": "if not userWarnedUncracked then print(' \\n\\t [ WARNING ]  Adding this item may interfere with some quests, IF YOU STILL WANT TO ADD IT TO THE INVENTORY, ENTER THE COMMAND AGAIN.\\n ') userWarnedUncracked = true; else print(' \\n\\tOK, Item Added.\\n ') Game.AddToInventory(\"Items.Q305_Cerberus_core_uncracked\", 1) userWarnedUncracked = nil; end;",
-    "name": "CERBERUS\u2019 BEHAVIORAL SYSTEM COMPONENT",
+    "name": "CERBERUS’ BEHAVIORAL SYSTEM COMPONENT",
     "notes": "2.0 PATCH"
   },
   {
@@ -474,13 +474,6 @@
     "command": "Game.AddToInventory(\"Items.PerkPointsResetter\", 1)",
     "name": "[ NOT WORKING ? ]  TABULA E-RASA",
     "notes": "RESETS ALL SPENT PERK POINTS INSTANTLY AFTER PURCHASE/PICKUP"
-  },
-  {
-    "id": "69",
-    "type": "MEMORABILIA",
-    "command": "https://cyberpunk.fandom.com/wiki/V's_Apartment/Memorabilia",
-    "name": "\u2190 MEMORABILIA REQUIREMENTS",
-    "notes": "-"
   },
   {
     "id": "70",
@@ -1599,7 +1592,7 @@
     "id": "229",
     "type": "JUNK | MISC",
     "command": "Game.AddToInventory(\"Items.Foundingfathers_DanceOfBrain\", 1)",
-    "name": "Dance of Brain of Lech Kie\u0142basiewicz",
+    "name": "Dance of Brain of Lech Kiełbasiewicz",
     "notes": "BD"
   },
   {
@@ -4623,7 +4616,7 @@
     "id": "661",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.generic_creole_poetry_shard\", 1)",
-    "name": "LES DEUX BOUTS DE L'\u00c9CHELLE, PIERRE",
+    "name": "LES DEUX BOUTS DE L'ÉCHELLE, PIERRE",
     "notes": "-"
   },
   {
@@ -4679,7 +4672,7 @@
     "id": "669",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.generic_death_poetry_03_shard\", 1)",
-    "name": "BOLESLAW L\u00c9SMIAN, \"WHY SO MANY CANDLES\u2026\"",
+    "name": "BOLESLAW LÉSMIAN, \"WHY SO MANY CANDLES…\"",
     "notes": "-"
   },
   {
@@ -5435,7 +5428,7 @@
     "id": "777",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.generic_unification_war_shard\", 1)",
-    "name": "THE UNIFICATION WAR\u2026FOR GONKS!",
+    "name": "THE UNIFICATION WAR…FOR GONKS!",
     "notes": "-"
   },
   {
@@ -6324,7 +6317,7 @@
     "id": "904",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.ma_hey_rey_01_onscreen_02\", 1)",
-    "name": "ARCHIVED CONVERSATION: ELENA VARGAS AND JOS\u00c9 PRIETO",
+    "name": "ARCHIVED CONVERSATION: ELENA VARGAS AND JOSÉ PRIETO",
     "notes": "-"
   },
   {
@@ -9285,7 +9278,7 @@
     "id": "1327",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.sts_wbr_hil_06_keys\", 1)",
-    "name": "CAR KEYS (DAN\u2019S CAR)",
+    "name": "CAR KEYS (DAN’S CAR)",
     "notes": "QUEST ITEM"
   },
   {
@@ -10083,7 +10076,7 @@
     "id": "1441",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.ma_cct_dtn_110_onscreen_01\", 1)",
-    "name": "ARCHIVED CONVERSATION: ULTRAEATS AND YOLANDA S\u00c1NCHEZ",
+    "name": "ARCHIVED CONVERSATION: ULTRAEATS AND YOLANDA SÁNCHEZ",
     "notes": "-"
   },
   {
@@ -10244,7 +10237,7 @@
     "id": "1464",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.ma_std_arr_101_onscreen_01\", 1)",
-    "name": "ARCHIVED CONVERSATION: OSCAR JONES AND ZOE \"V\u00cdBORA\" ROJA",
+    "name": "ARCHIVED CONVERSATION: OSCAR JONES AND ZOE \"VÍBORA\" ROJA",
     "notes": "-"
   },
   {
@@ -10293,7 +10286,7 @@
     "id": "1471",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.ma_std_arr_108_onscreen_01\", 1)",
-    "name": "ARCHIVED CONVERSATION: DANNY ROSSI AND ZOE \"V\u00cdBORA\" ROJA",
+    "name": "ARCHIVED CONVERSATION: DANNY ROSSI AND ZOE \"VÍBORA\" ROJA",
     "notes": "-"
   },
   {
@@ -11490,7 +11483,7 @@
     "id": "1642",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.sts_ep1_06_shard_000\",1)",
-    "name": "TEXAS HOLD'EM \u2013 RECENT WINNINGS",
+    "name": "TEXAS HOLD'EM – RECENT WINNINGS",
     "notes": "2.0 PATCH"
   },
   {
@@ -11560,7 +11553,7 @@
     "id": "1652",
     "type": "SHARD",
     "command": "Game.AddToInventory(\"Items.sts_ep1_06_shard_010\",1)",
-    "name": "VISTA DEL REY CELEBRATES AS HECTOR SACRIST\u00c1N FACES CHARGES",
+    "name": "VISTA DEL REY CELEBRATES AS HECTOR SACRISTÁN FACES CHARGES",
     "notes": "2.0 PATCH"
   },
   {
