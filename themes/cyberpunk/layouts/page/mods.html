@@ -1,0 +1,163 @@
+{{ define "main" }}
+{{- $catCounts := dict -}}
+{{- range .Site.Data.mods -}}
+    {{- $c := .final_category -}}
+    {{- $catCounts = merge $catCounts (dict $c (add (index $catCounts $c | default 0) 1)) -}}
+{{- end -}}
+{{- $catSlice := slice -}}
+{{- range $k, $v := $catCounts -}}
+    {{- $catSlice = $catSlice | append (dict "name" $k "count" $v) -}}
+{{- end -}}
+{{- $byCount := sort $catSlice "count" "desc" -}}
+{{- $maxCount := (index $byCount 0).count -}}
+<div class="shell">
+    {{ partial "header.html" . }}
+
+    <div class="shell-body">
+        <!-- SIDEBAR -->
+        <aside class="side-rail">
+            <div class="rail-title">CATEGORY_FILTER</div>
+            <nav class="cat-list" id="catList" aria-label="Mod categories">
+                <button class="cat-btn active" data-category="All">ALL SYSTEMS <span class="cat-count">{{ len .Site.Data.mods }}</span></button>
+                {{ range $k, $v := $catCounts }}
+                <button class="cat-btn" data-category="{{ $k }}">{{ $k }} <span class="cat-count">{{ $v }}</span></button>
+                {{ end }}
+            </nav>
+
+            <div class="census">
+                <div class="census-title">DB_CENSUS // MODS PER CATEGORY</div>
+                <div class="census-graph" role="img" aria-label="Bar chart of mods per category">
+                    {{ range first 12 $byCount }}
+                    <div class="bar" style="height: {{ div (mul .count 100) $maxCount }}%" title="{{ .name }}: {{ .count }}"></div>
+                    {{ end }}
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN -->
+        <main class="main-col">
+            <div class="console-search">
+                <span class="prompt-arrow" aria-hidden="true">&gt;</span>
+                <input type="text" id="searchInput" data-search placeholder="Search mods by name, description or category" aria-label="Search mods">
+                <span class="search-count" id="modCount" aria-live="polite"></span>
+                <span class="search-key" title="Press / to search">/</span>
+            </div>
+
+            <div class="main-scroll">
+                {{ partial "intro.html" . }}
+
+                <div class="mods-container">
+                    {{ $modsByCategory := dict }}
+                    {{ range .Site.Data.mods }}
+                        {{ $cat := .final_category }}
+                        {{ $list := index $modsByCategory $cat | default slice }}
+                        {{ $list = $list | append . }}
+                        {{ $modsByCategory = merge $modsByCategory (dict $cat $list) }}
+                    {{ end }}
+
+                    {{ range $cat, $mods := $modsByCategory }}
+                    <section class="category-section" data-category="{{ $cat }}">
+                        <div class="section-head">
+                            <h2 class="section-title">{{ $cat }}</h2>
+                            <span class="section-count">{{ len $mods }} MODS</span>
+                            <span class="section-rule" aria-hidden="true"></span>
+                        </div>
+                        <div class="mod-grid">
+                            {{ range sort $mods "title" "asc" }}
+                            <article class="mod-card">
+                                <h3 class="card-title">{{ .title }}</h3>
+                                {{ if .description }}
+                                <p class="card-desc">{{ .description }}</p>
+                                {{ end }}
+                                <div class="card-footer">
+                                    <a href="{{ .url }}" target="_blank" rel="noopener" class="card-link">ACCESS_LINK</a>
+                                    <span class="card-source" title="{{ .source }}">{{ .source }}</span>
+                                </div>
+                            </article>
+                            {{ end }}
+                        </div>
+                    </section>
+                    {{ end }}
+
+                    <div class="empty-state" id="emptyState">
+                        <div class="empty-title">NO_RESULTS</div>
+                        <p class="empty-hint">0 mods match your query.</p>
+                        <button type="button" class="empty-clear" id="emptyClear">CLEAR SEARCH</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="shell-footer">
+        <span class="footer-stat">DB_SYNC OK · <b>{{ len .Site.Data.mods }}</b> MODS · <b>{{ len $catCounts }}</b> CATEGORIES</span>
+        <span>CMD_DB AVAILABLE AT /COMMANDS/</span>
+    </footer>
+</div>
+
+<script>
+(function () {
+    const state = { category: 'All', q: '' };
+    let cache = null;
+    const searchInput = document.getElementById('searchInput');
+    const countEl = document.getElementById('modCount');
+    const emptyEl = document.getElementById('emptyState');
+
+    function getCache() {
+        if (!cache) {
+            cache = Array.from(document.querySelectorAll('.mod-card')).map(card => ({
+                el: card,
+                section: card.closest('.category-section'),
+                category: card.closest('.category-section').dataset.category,
+                text: card.textContent.toLowerCase()
+            }));
+        }
+        return cache;
+    }
+
+    function applyFilters() {
+        const items = getCache();
+        const q = state.q.trim().toLowerCase();
+        const visibleSections = new Set();
+        let visible = 0;
+        for (const item of items) {
+            const ok = (state.category === 'All' || item.category === state.category)
+                && (!q || item.text.includes(q) || item.category.toLowerCase().includes(q));
+            item.el.classList.toggle('hidden', !ok);
+            if (ok) { visible++; visibleSections.add(item.section); }
+        }
+        document.querySelectorAll('.category-section').forEach(s => {
+            s.classList.toggle('hidden', !visibleSections.has(s));
+        });
+        countEl.innerHTML = '<b>' + visible + '</b> / ' + items.length;
+        emptyEl.classList.toggle('visible', visible === 0);
+    }
+
+    document.getElementById('catList').addEventListener('click', (e) => {
+        const btn = e.target.closest('.cat-btn');
+        if (!btn) return;
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b === btn));
+        state.category = btn.dataset.category;
+        applyFilters();
+    });
+
+    let t;
+    searchInput.addEventListener('input', () => {
+        clearTimeout(t);
+        t = setTimeout(() => {
+            state.q = searchInput.value;
+            applyFilters();
+        }, 120);
+    });
+
+    document.getElementById('emptyClear').addEventListener('click', () => {
+        searchInput.value = '';
+        state.q = '';
+        applyFilters();
+        searchInput.focus();
+    });
+
+    applyFilters();
+})();
+</script>
+{{ end }}

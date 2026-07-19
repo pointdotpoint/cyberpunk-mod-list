@@ -1,5 +1,4 @@
 ---
 title: "Command Database"
-layout: "commands"
-type: "page"
+aliases: ["/commands/"]
 ---
